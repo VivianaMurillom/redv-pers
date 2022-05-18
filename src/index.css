@@ -27,3 +27,10 @@ html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Resolución macro*/
+@media screen and (min-width:1200px) {
+  body{
+    margin: 0 auto;
+}
+}
