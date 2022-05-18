@@ -1,41 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-:root{
-    --morado-osc: #440042;
-    --morado-oscuro:#3B0057;
-    --rosa-oscuro: #A12161;
-    --rosa-claro:#C75C7E;
-    --rosa-gris:#CC99A9;
-    --rosa:#F2ACB9;
-    --fondo:#FFF8F8;
-    --amarillo:#FFCA00;
-    --naranja:#FF671B;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-}
-
-body{
-    background-color: var(--fondo);
-}
-
-html {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-}
-
-header, nav, footer {
+ /* Diseño de Nav */
+ 
+ nav{
 	background: rgb(53,1,88);
     background: linear-gradient(90deg, rgba(53,1,88,1) 0%, rgba(106,1,128,1) 100%);
     color: white;
-}
-
-/* Diseño de Nav */
-nav{
     display: flex;
     flex-direction: column;
     padding: .5rem;
@@ -122,11 +90,6 @@ li{
 .redes a:hover{
     background-color: #A12161;
     text-decoration: none;
-}
-
-/*Resolución de tablet*/
-@media screen and (min-width: 768px) {
-
 }
 
 /*Resolución de medias (equipos de escritorio)*/
