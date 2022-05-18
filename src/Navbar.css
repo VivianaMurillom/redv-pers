@@ -87,6 +87,10 @@ li{
     cursor: pointer;
 }
 
+.redes-enlaces li{
+    list-style: none;
+}
+
 .redes a:hover{
     background-color: #A12161;
     text-decoration: none;

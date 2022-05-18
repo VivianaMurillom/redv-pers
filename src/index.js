@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Header';
 import Navbar from './Navbar';
+import Jovenes1 from './jovenes/Jovenes1C';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Navbar />
+    <Jovenes1 />
     <Footer />
   </React.StrictMode>
 );
