@@ -1,6 +1,6 @@
-import './Jovenes1C.css'
+import './Jovenes1.css'
 
-function Jovenes1C(){
+function Jovenes1(){
     return(
         <div className="section-body-changes">
             <div class="content-body-changes">
@@ -59,4 +59,4 @@ function Jovenes1C(){
     );
 }
 
-export default Jovenes1C;
+export default Jovenes1;
