@@ -16,7 +16,7 @@ function Jovenes1C(){
                                 <h3>Femenino</h3>
                                 <p>Video</p>
                                 <div class="go">
-                                    <a href="https://youtu.be/Pq-RJ4PoO8o" target="_blank"><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
+                                    <a href="https://youtu.be/Pq-RJ4PoO8o" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ function Jovenes1C(){
                                 <h3>Masculino</h3>
                                 <p>Video</p>
                                 <div class="go">
-                                    <a href="https://youtu.be/J0wMx9dnbKE" target="_blank"><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
+                                    <a href="https://youtu.be/J0wMx9dnbKE" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Jovenes1C(){
                                 <h3>Sistema reproductor femenino</h3>
                                 <p>Página web</p>
                                 <div class="go">
-                                    <a href="https://www.nosotrasonline.com.co/entre-nosotras/cuidado-femenino/sistema-reproductor-femenino-todo-lo-que-debes-saber-sobre-tu-cuerpo/" target="_blank"><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
+                                    <a href="https://www.nosotrasonline.com.co/entre-nosotras/cuidado-femenino/sistema-reproductor-femenino-todo-lo-que-debes-saber-sobre-tu-cuerpo/" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ function Jovenes1C(){
                                 <h3>Sistema reproductor masculino</h3>
                                 <p>Página web</p>
                                 <div class="go">
-                                    <a href="https://www.nosotrasonline.com.co/entre-nosotras/cuidado-femenino/partes-del-cuerpo-del-hombre-que-debes-saber-con-nosotras-colombia/" target="_blank"><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
+                                    <a href="https://www.nosotrasonline.com.co/entre-nosotras/cuidado-femenino/partes-del-cuerpo-del-hombre-que-debes-saber-con-nosotras-colombia/" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
                                 </div>
                             </div>
                         </div>

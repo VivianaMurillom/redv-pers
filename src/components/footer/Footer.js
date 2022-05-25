@@ -1,6 +1,6 @@
 import './Footer.css';
-import logo from './icons/logo-redvin.svg';
-import techP from './icons/tech_power.png';
+import logo from '../../icons/logo-redvin.svg';
+import techP from '../../icons/tech_power.png';
 
 function Footer() {
     return (

@@ -1,18 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Header';
-import Navbar from './Navbar';
-import Jovenes1 from './jovenes/Jovenes1C';
-import Footer from './Footer';
-import reportWebVitals from './reportWebVitals';
+import Header from './components/header/Header';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Navbar />
-    <Jovenes1 />
     <Footer />
   </React.StrictMode>
 );
@@ -20,4 +17,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from './icons/logo-redvin.svg'
+import logo from '../../icons/logo-redvin.svg'
 
 function Header(){
     return(
