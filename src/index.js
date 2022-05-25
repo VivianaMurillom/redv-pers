@@ -10,6 +10,10 @@ import Oportunidades from './pages/oportunidades/Oportunidades';
 import Asociados from './pages/redes/asociados/Asociados';
 import Lineas from './pages/redes/lineas/Lineas';
 import Error404 from './pages/error404/Error404';
+import Jovenes1 from './pages/juegayaprende/jovenes/jovenes1/Jovenes1';
+import Jovenes2 from './pages/juegayaprende/jovenes/jovenes2/Jovenes2';
+import Jovenes3 from './pages/juegayaprende/jovenes/jovenes3/Jovenes3';
+import JovenesJuegos from './pages/juegayaprende/jovenes/jovenes_juegos/JovenesJuegos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +29,12 @@ root.render(
       <Route path='/asociados' element={<Asociados/>}></Route>
       <Route path='/lineas' element={<Lineas/>}></Route>
       <Route path='*' element={<Error404/>}></Route>
-      <Route path='/home' element={<Navigate replace to={'/'}/>}></Route>  
+      <Route path='/home' element={<Navigate replace to={'/'}/>}></Route>
+      {/* Rutas internas de juega y aprende jóvenes */}
+      <Route path='/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
+      <Route path='/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
+      <Route path='/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
+      <Route path='/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>        
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

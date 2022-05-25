@@ -1,5 +1,5 @@
 import './Navbar.css';
-import  {Link}  from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Navbar(){
     return(
@@ -9,7 +9,7 @@ function Navbar(){
                 <i className="fa-solid fa-bars fa-2xl"></i>
             </label>
 
-            <ul class="nav-header"> 
+            <ul className="nav-header"> 
                 <li><Link to='/inicio' className='item'>Inicio</Link></li>
                 <li><Link to='/juega-aprende' className='item'>Juega y Aprende</Link></li>
                 <li><Link to='/oportunidades' className='item'>Oportunidades</Link></li>
