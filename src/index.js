@@ -14,6 +14,7 @@ import Jovenes1 from './pages/juegayaprende/jovenes/jovenes1/Jovenes1';
 import Jovenes2 from './pages/juegayaprende/jovenes/jovenes2/Jovenes2';
 import Jovenes3 from './pages/juegayaprende/jovenes/jovenes3/Jovenes3';
 import JovenesJuegos from './pages/juegayaprende/jovenes/jovenes_juegos/JovenesJuegos';
+import Form from './pages/formulario/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +35,9 @@ root.render(
       <Route path='/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
       <Route path='/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
       <Route path='/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
-      <Route path='/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>        
+      <Route path='/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
+      {/* Rutas de ejercicio formulario */}     
+      <Route path='/formulario' element={<Form/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

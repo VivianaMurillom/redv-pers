@@ -21,7 +21,7 @@ function Jovenes2(){
                         <div className="gradient-box box-initial-desing">
                             <div className="box-education">
                                 <h3>Política de Sexualidad, Derechos Sexuales y Derechos Reproductivos</h3>
-                                <div className="white_space">&nbsp;</div>
+                                {/* <div className="white_space">&nbsp;</div> */}
                                 <p>Documento PDF virtual</p>
                                 <div className="go">
                                     <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/LIBRO%20POLITICA%20SEXUAL%20SEPT%2010.pdf" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>
@@ -31,8 +31,8 @@ function Jovenes2(){
                         <div className="gradient-box box-second-desing">
                             <div className="box-education">
                                 <h3>Educación Integral para la Sexualidad (EIS)</h3>
-                                <div className="white_space">&nbsp;</div>
-                                <div className="white_space">&nbsp;</div>
+                                {/* <div className="white_space">&nbsp;</div>
+                                <div className="white_space">&nbsp;</div> */}
                                 <p>Página web</p>
                                 <div className="go little">
                                     <a href="https://prep-colombia.org/eis/" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x"></i></a>

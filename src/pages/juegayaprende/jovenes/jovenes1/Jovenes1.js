@@ -17,7 +17,7 @@ function Jovenes1(){
                     <p>Los siguientes videos de Planned Parenthood te los cuentan...</p>
                     <div className="general-videos">
                         <div className="boxes-videos">
-                            <div className="gradient-box">
+                            <div className="gradient-box-body">
                                 <div className="gradient-body-changes">
                                     <h3>Femenino</h3>
                                     <p>Video</p>
@@ -26,7 +26,7 @@ function Jovenes1(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="gradient-box">
+                            <div className="gradient-box-body">
                                 <div className="gradient-body-changes">
                                     <h3>Masculino</h3>
                                     <p>Video</p>
@@ -40,7 +40,7 @@ function Jovenes1(){
                         <p>Tambien tenemos los artículos del sitio web de Nosotras Colombia.</p>
 
                         <div className="boxes-body">
-                            <div className="gradient-box">
+                            <div className="gradient-box-body">
                                 <div className="gradient-body-changes">
                                     <h3>Sistema reproductor femenino</h3>
                                     <p>Página web</p>
@@ -49,7 +49,7 @@ function Jovenes1(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="gradient-box">
+                            <div className="gradient-box-body">
                                 <div className="gradient-body-changes">
                                     <h3>Sistema reproductor masculino</h3>
                                     <p>Página web</p>
@@ -66,7 +66,7 @@ function Jovenes1(){
             <div className="section-menstruation">
             <h2>Menstruación</h2>
                 <div class="content-menstruation">
-                <div class="gradient-box">
+                <div class="gradient-box-other">
                     <div class="gradient-menstruation">
                         <h3>Fases de la menstruación</h3>
                         <p>Página web</p>
@@ -76,7 +76,7 @@ function Jovenes1(){
                     </div>
                 </div>
 
-                <div class="gradient-box">
+                <div class="gradient-box-other">
                     <div class="gradient-menstruation">
                         <h3>¿Sabes qué pasa durante la menstruación?</h3>
                         <p>Video</p>
@@ -86,7 +86,7 @@ function Jovenes1(){
                     </div>
                 </div>
 
-                <div class="gradient-box">
+                <div class="gradient-box-other">
                     <div class="gradient-menstruation">
                         <h3>El ciclo menstrual</h3>
                         <p>Video</p>
