@@ -85,18 +85,9 @@
     text-align: center;
 }
 
-/* .prevention-women{
-    border-radius: 30px 10px;
-} */
-
-/* .prevention-kids{
-    border-radius: 30px;
-} */
-
-/* .prevention-young{
-    border-radius: 10px 30px;
-} */
-
+.prevention-women, .prevention-kids, .prevention-young{
+    font-size: 18px;
+}
 .button-see{
     margin: 1rem;
 }
@@ -240,17 +231,13 @@
 /*Resolución de tablet*/
 @media screen and (min-width: 768px) {
 
-    .main-gradient-prevention p{
-        font-size: 16px;
-    }
-
     .gradient-box{
         min-width: 200px;
     }
 
     .prevention-women, .prevention-kids, .prevention-young{
         font-size: 20px;
-        min-width: 279px;
+        min-width: 240px;
         min-height: 200px;
         padding: 1.5rem;
         text-align: center;
@@ -259,7 +246,8 @@
     .boxes-no-game{
         align-items: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         margin: 1rem 0;
         margin-bottom: 2rem;
     }

@@ -5,12 +5,14 @@ import './JovenesJuegos.css'
 import cerebriti from './img/Cerebriti.png';
 import carrera from './img/Carrera.png';
 import dados from './img/Dados.png';
+import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 
 function JovenesJuegos(){
     return(
        <div>
         <Header/>
         <Navbar/>
+        <Mmenujovenes/>
         <section class="section-games">
                 <div class="box-game">
                     <div class="box-division">

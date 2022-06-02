@@ -2,14 +2,15 @@ import Header from '../../../../components/header/Header';
 import Navbar from '../../../../components/navbar/Navbar';
 import Footer from '../../../../components/footer/Footer';
 import './Jovenes2.css';
-import galleta from './img/imagen.png'
+import galleta from './img/imagen.png';
+import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 
 function Jovenes2(){
     return(
        <div>
         <Header/>
         <Navbar/>
-
+        <Mmenujovenes/>
         <section className="section-education">
             <div className="content-education"> 
                 <h1>Educación Integral para la sexualidad</h1>

@@ -2,12 +2,14 @@ import './Jovenes1.css';
 import Header from '../../../../components/header/Header';
 import Navbar from '../../../../components/navbar/Navbar';
 import Footer from '../../../../components/footer/Footer';
+import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 
 function Jovenes1(){
     return(
         <section>
             <Header/>
             <Navbar/>
+            <Mmenujovenes/>
             <div className="section-body-changes">
                 <div className="content-body-changes">
                     <h1>Cambios en el cuerpo</h1>
