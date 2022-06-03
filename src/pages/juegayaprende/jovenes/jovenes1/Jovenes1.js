@@ -3,6 +3,7 @@ import Header from '../../../../components/header/Header';
 import Navbar from '../../../../components/navbar/Navbar';
 import Footer from '../../../../components/footer/Footer';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
+import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
 
 function Jovenes1(){
     return(
@@ -10,6 +11,7 @@ function Jovenes1(){
             <Header/>
             <Navbar/>
             <Mmenujovenes/>
+            <Submenuj/>
             <div className="section-body-changes">
                 <div className="content-body-changes">
                     <h1>Cambios en el cuerpo</h1>
