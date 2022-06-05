@@ -3,6 +3,7 @@ import Navbar from '../../../../components/navbar/Navbar';
 import Footer from '../../../../components/footer/Footer';
 import './Jovenes3.css';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
+import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
 
 function Kitfem(){
     return(
@@ -10,6 +11,7 @@ function Kitfem(){
         <Header/>
         <Navbar/>
         <Mmenujovenes/>
+        <Submenuj/>
         <section className="section-prevention">
             <div className="content-prevention"> 
                 <h1>Prevención de violencias</h1>

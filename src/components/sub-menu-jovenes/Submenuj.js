@@ -9,26 +9,20 @@ function Submenuj(){
         <div class="contents-buttons">
             <Link to='/juega-aprende/jovenes1' className='item-sub'>
                 <div class="cambios"> 
-                    <a href="jovenes1.html">
                     <img src={cambios} alt="Imagen 1"/>
                     <p>Cambios</p>
-                    </a>
                 </div>
             </Link>
             <Link to='/juega-aprende/jovenes2' className='item-sub'>
                 <div class="EIS">
-                    <a href="jovenes2.html">
                     <img src={eis} alt="Imagen 2"/>
                     <p>EIS</p>
-                    </a>
                 </div>
             </Link>
             <Link to='/juega-aprende/jovenes3' className='item-sub'>
                 <div class="Prevencion">
-                    <a href="jovenes3.html">
                     <img src={prevencion} alt="Imagen 3"/>
-                    <p>Prevención</p>
-                    </a>
+                    <p>Prevención</p> 
                 </div>
             </Link>
             </div>

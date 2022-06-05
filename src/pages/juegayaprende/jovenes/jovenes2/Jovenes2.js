@@ -4,6 +4,7 @@ import Footer from '../../../../components/footer/Footer';
 import './Jovenes2.css';
 import galleta from './img/imagen.png';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
+import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
 
 function Jovenes2(){
     return(
@@ -11,6 +12,7 @@ function Jovenes2(){
         <Header/>
         <Navbar/>
         <Mmenujovenes/>
+        <Submenuj/>
         <section className="section-education">
             <div className="content-education"> 
                 <h1>Educación Integral para la sexualidad</h1>

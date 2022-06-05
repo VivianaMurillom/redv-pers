@@ -1,0 +1,131 @@
+{
+    "enero": {
+
+        "enero-1":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1482294084110-UP2E8W2BA3G2VXDAPFE8/RossBetsy.jpg?format=500w",
+            "info-adicional":"La Federación Americana de Profesores compartió un homenaje a la labor de Jeanne Chall en pro de la educación.",
+            "fuente":"https://todayinwomenshistory.org/january-1/",
+            "nombre": "Jeanne Chall",
+            "descripcion": "Jeanne Chall, una destacada experta en cómo los niños aprenden a leer, nació en 1921. La Dra. Chall defendió tanto el material de lectura desafiante para los niños como el uso de la fonética en la enseñanza básica de la lectura."  
+        },
+
+        "enero-2":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1482294861475-CCGGUAYIPFY28HTWHW69/Untitled+design+%285%29.png?format=500w",
+            "info-adicional":"Los reconocimientos de Alexander parecen no tener fin. Fue fundadora de la Asociación Nacional de Abogados y la primera presidenta nacional de Delta Sigma Theta, Inc. una hermandad afroamericana. Durante 25 años, formó parte de la junta nacional de la National Urban League. Lea más sobre su vida en este gran homenaje de U. Penn. ",
+            "fuente":"https://todayinwomenshistory.org/january2/",
+            "nombre": "Sadie Alexander",
+            "descripcion": "Sadie Alexander, la primera mujer negra en asistir a la Facultad de Derecho de la Universidad de Pensilvania y la primera en ejercer la abogacía en Pensilvania. Fue nombrada miembro del Comité de Derechos Civiles por el Presidente Truman. Nació hoy en 1895."  
+        },
+
+        "enero-3":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1483045833286-EEDCGVF0771L11131AAR/Arethafranklin.jpg?format=750w",
+            "info-adicional":"Aretha Franklin tuvo muchos grandes éxitos. Aquí hay uno: Sublime canción de la Reina del Soul. Del álbum de Atlantic 'I Never Loved a Man The Way I Love You' 1967.",
+            "fuente":"https://todayinwomenshistory.org/january-3/",
+            "nombre": "Aretha Franklin",
+            "descripcion": "En 1987, Aretha Franklin ingresó en el Salón de la Fama del Rock & Roll. Fue la primera mujer artista en recibir ese honor."  
+        },
+
+        "enero-4":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1483046067459-FXTOR0EKH4IA1ZRORUFL/Patsy_Mink_1970s.jpg?format=500w",
+            "info-adicional":"Patsy Mink tuvo un impacto significativo en la nación durante su estancia en la Cámara de Representantes, y fue una ferviente defensora de la educación, los derechos de la mujer y la atención sanitaria.",
+            "fuente":"https://todayinwomenshistory.org/january-4/",
+            "nombre": "Patsy Mink",
+            "descripcion": "En 1965, Patsy Mink juró su cargo en la Cámara de Representantes de Estados Unidos. Fue la primera mujer de color y la primera asiático-americana elegida para el Congreso."  
+        },
+        "enero-5":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1483046983441-H8MA22TQDGIKZ0OIKD6V/PrNellieRoss.jpg?format=500w",
+            "info-adicional":"Hoy, en 1925, Nellie Tayloe Ross prestó juramento como gobernadora de Wyoming. Fue la primera mujer gobernadora de los Estados Unidos.",
+            "fuente":"https://todayinwomenshistory.org/january-5/",
+            "nombre": "Nellie Tayloe Ross",
+            "descripcion": "Nellie Tayloe Ross fue una política estadounidense, la 14.ª gobernadora de Wyoming en el periodo 1925-1927, y directora de la Casa de la Moneda de Estados Unidos de 1933 a 1953."  
+        },
+        "enero-6":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1512612191235-HVNCX4M6LXY1O80697TV/mm1913.jpg?format=500w",
+            "info-adicional":"María Montessori abrió su primera escuela y guardería para niños de clase trabajadora en Roma en 1907. Ahora hay más de 22.000 escuelas Montessori en al menos 110 países de todo el mundo.",
+            "fuente":"https://todayinwomenshistory.org/january-6/",
+            "nombre": "Maria Montessori",
+            "descripcion": "María Tecla Artemisia Montessori, más conocida como María Montessori, fue una médica, pedagoga, psiquiatra y filósofa, además de humanista, activista feminista, sufragista italiana y devota católica."  
+        },
+        "enero-7":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1512613496150-Y238U7JJ2ZH09Z54WTVZ/Butterfly_McQueen_in_Affectionately_Yours_trailer.jpg?format=500w",
+            "info-adicional":"Nació hoy en 1911. McQueen, apareció por primera vez en el cine en 1939 como Prissy, la criada de Scarlett O'Hara, en Lo que el viento se llevó. No pudo asistir al estreno de la película porque se celebró en un cine sólo para blancos.",
+            "fuente":"https://todayinwomenshistory.org/january-7/",
+            "nombre": "Maria Montessori",
+            "descripcion": "Thelma 'Butterfly' McQueen fue una actriz estadounidense. Originalmente fue una bailarina."  
+        },
+        "enero-8":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1512840057924-CCVFGH2GO3OSPBSV9UDC/Ella_Grasso.jpg?format=500w",
+            "info-adicional":"Nació hoy en 1911. McQueen, apareció por primera vez en el cine en 1939 como Prissy, la criada de Scarlett O'Hara, en Lo que el viento se llevó. No pudo asistir al estreno de la película porque se celebró en un cine sólo para blancos.",
+            "fuente":"https://todayinwomenshistory.org/january-8/",
+            "nombre": "Maria Montessori",
+            "descripcion": "Thelma 'Butterfly' McQueen fue una actriz estadounidense. Originalmente fue una bailarina."  
+        }
+    },
+     
+    "junio":{
+
+        "junio-1":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528247894242-0VR6N1R57UAR6103TLDV/download.jpg?format=500w",
+            "info-adicional":"Fue presentadora y reportera de las cadenas de televisión estadounidenses NBC, MSNBC, CBS y CNN. Chung está casada con el presentador del programa Maury Povich. Tienen un hijo adoptivo.",
+            "fuente":"https://todayinwomenshistory.org/june-1/",
+            "nombre": "Connie Chung",
+            "descripcion": "Hoy, en 1993, Connie Chung se convirtió en la segunda mujer en copresentar las noticias de la noche, 17 años después de que Barbara Walters fuera la primera en 1976. También fue la primera asiática en copresentar las noticias nacionales de una cadena importante."  
+        },
+        "junio-2":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528247996908-04UQU06DVSXAJK7COHA5/220px-Dorothy_West.jpg?format=500w",
+            "info-adicional":"Es más conocida por ser la autora de la novela The Living Is Easy, así como por muchas otras historias cortas y ensayos sobre la vida de una familia negra de clase alta.",
+            "fuente":"https://todayinwomenshistory.org/june-2/",
+            "nombre": "Dorothy West",
+            "descripcion": "Dorothy West, escritora, novelista durante el Renacimiento de Harlem, nació hoy en 1907."  
+        },
+        "junio-3":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528248124529-NF1TTY41CFFDNJNUQT8E/6753307_54073235-9d07-4e78-9f61-326fd4aad9f8.jpg?format=500w",
+            "info-adicional":"Fue una figura nacional de la educación, los derechos civiles y el movimiento feminista. ",
+            "fuente":"https://todayinwomenshistory.org/june-3/",
+            "nombre": "Elizabeth Koontz",
+            "descripcion": "Elizabeth Koontz, la primera presidenta afroamericana de la Asociación Nacional de Educación, nació hoy en 1919."  
+        },
+        "junio-4":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528248259208-SHNPZV0AVC8HQYOW944R/03fde147907f71c573ec24b6fc5e75cc.jpg?format=750w",
+            "info-adicional":"Nació en Lyon el 8 de marzo de 1757. El 4 de junio de 1784, ocho meses después del primer vuelo en globo tripulado.",
+            "fuente":"https://todayinwomenshistory.org/june-4/",
+            "nombre": "Élisabeth Thible",
+            "descripcion": "En 1784, Élisabeth Thible se convirtió en la primera mujer en volar en un globo aerostático sin ataduras. Su vuelo recorre cuatro kilómetros en 45 minutos y alcanza 1.500 metros de altitud (estimada)."  
+        },
+        "junio-5":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528248693786-GUJQ7ZYKSCKH7E08FQTU/download+9.26.38+PM.jpg?format=500w",
+            "info-adicional":"Mae Carol Jemison es una ingeniera, médica y ex-astronauta de la NASA. Fue la primera mujer estadounidense negra viajar al espacio. Sirvió como especialista de misión en el transbordador espacial Endeavour.",
+            "fuente":"https://todayinwomenshistory.org/june-5/",
+            "nombre": "Mae C. Jemison",
+            "descripcion": "En 1987, la Dra. Mae C. Jemison se convirtió en la primera mujer negra astronauta."  
+        },
+        "junio-6":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528248665340-VOWT2K8839SRU6I2VI5A/aubrey-anderson-emmons.jpg?format=500w",
+            "info-adicional":"Fue la celebridad más joven en pisar la alfombra roja de los premios Primetime Emmy en 2012 y 2013.",
+            "fuente":"https://todayinwomenshistory.org/june-6/",
+            "nombre": "Aubrey Anderson-Emmons",
+            "descripcion": "Aubrey Anderson-Emmons es una actriz estadounidense que se dio a conocer por su papel de hija adoptiva, Lily Tucker-Pritchett, en la serie de televisión Modern Family."  
+        },
+        "junio-7":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528249083024-INWSM0WFRBDT2ZL7U5QJ/220px-MPWolcott1940.jpg?format=500w",
+            "info-adicional":"Documentó durante la Gran Depresión estadounidense situaciones de pobreza y necesidad.",
+            "fuente":"https://todayinwomenshistory.org/june-7/",
+            "nombre": "Marion Wolcott",
+            "descripcion": "Marion Wolcott, fotógrafa documentalista durante la Gran Depresión, nació hoy en 1910."  
+        },
+        "junio-8":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528249213575-LICJL1NS5W9RGB9TQH65/220px-Estelle_Griswold_portrait.jpg?format=500w",
+            "info-adicional":"Fue una activista de derechos civiles y feminista más conocida como acusada en lo que se convirtió en el caso de la Corte Suprema Griswold contra Connecticut.",
+            "fuente":"https://todayinwomenshistory.org/june-8/",
+            "nombre": "Estelle Griswold",
+            "descripcion": "Estelle Griswold, defensora y pionera del control de la natalidad y demandada en el caso Griswold contra Connecticut del Tribunal Supremo, que legalizó la anticoncepción para las parejas casadas en 1965, nació hoy en 1900."  
+        },
+        "junio-9":{
+            "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528249466939-8E3H8XEXAJ9G69IMV4AE/220px-Georgia_Neese_Clark_cph.3f05813.jpg?format=500w",
+            "info-adicional":"",
+            "fuente":"https://todayinwomenshistory.org/june-9/",
+            "nombre": "Georgia Neese Clark",
+            "descripcion": "Georgia Neese Clark fue confirmada como la primera mujer tesorera de los Estados Unidos en 1949."  
+        }
+    }
+}
