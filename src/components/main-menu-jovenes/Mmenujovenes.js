@@ -1,7 +1,7 @@
 import  {Link}  from 'react-router-dom';
 import './Mainmenujo.css';
-import dados from './dados.svg';
-import computador from './computador.svg';
+import dados from './feminismo(1).png';
+import computador from './feminismo.png';
 
 function Mmenujovenes(){
     return(
