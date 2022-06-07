@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/redv-pers/static/css/main.1677438f.css",
-    "main.js": "/redv-pers/static/js/main.2cb79198.js",
+    "main.js": "/redv-pers/static/js/main.3d62328c.js",
     "static/media/img-pantalla-inicial.svg": "/redv-pers/static/media/img-pantalla-inicial.94cba49548e5036e2d1a.svg",
     "static/media/imgcalendario.svg": "/redv-pers/static/media/imgcalendario.e6e7e6924b3683ea557a0f3fe5faa0a8.svg",
     "static/media/fondo-pres.png": "/redv-pers/static/media/fondo-pres.9eccd365e19da8408ccb.png",
@@ -21,10 +21,10 @@
     "static/media/logo-redvin.svg": "/redv-pers/static/media/logo-redvin.1e2e14cbb6122bb69ae19b6c937ac064.svg",
     "index.html": "/redv-pers/index.html",
     "main.1677438f.css.map": "/redv-pers/static/css/main.1677438f.css.map",
-    "main.2cb79198.js.map": "/redv-pers/static/js/main.2cb79198.js.map"
+    "main.3d62328c.js.map": "/redv-pers/static/js/main.3d62328c.js.map"
   },
   "entrypoints": [
     "static/css/main.1677438f.css",
-    "static/js/main.2cb79198.js"
+    "static/js/main.3d62328c.js"
   ]
 }
