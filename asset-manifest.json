@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/redv-pers/static/css/main.1677438f.css",
+    "main.js": "/redv-pers/static/js/main.2cb79198.js",
+    "static/media/img-pantalla-inicial.svg": "/redv-pers/static/media/img-pantalla-inicial.94cba49548e5036e2d1a.svg",
+    "static/media/imgcalendario.svg": "/redv-pers/static/media/imgcalendario.e6e7e6924b3683ea557a0f3fe5faa0a8.svg",
+    "static/media/fondo-pres.png": "/redv-pers/static/media/fondo-pres.9eccd365e19da8408ccb.png",
+    "static/media/imagen.png": "/redv-pers/static/media/imagen.42e5d342de1223496dc2.png",
+    "static/media/Carrera.png": "/redv-pers/static/media/Carrera.b447e0201e0f91435271.png",
+    "static/media/Dados.png": "/redv-pers/static/media/Dados.77eab607eddda5b1f2f7.png",
+    "static/media/form.svg": "/redv-pers/static/media/form.80b8c7358928b32b7840.svg",
+    "static/media/logo-manifiesta.png": "/redv-pers/static/media/logo-manifiesta.004ac77367e63af41efe.png",
+    "static/media/Cerebriti.png": "/redv-pers/static/media/Cerebriti.2f4ded60e3b6adce6026.png",
+    "static/media/undraw_in_thought_orange.svg": "/redv-pers/static/media/undraw_in_thought_orange.0a6da7c28156941e39aee0371310e595.svg",
+    "static/media/logo-igualadas.png": "/redv-pers/static/media/logo-igualadas.4f274b9cd4f97c5334d0.png",
+    "static/media/undraw_positive_attitude_orange.svg": "/redv-pers/static/media/undraw_positive_attitude_orange.d9692fcacc60e300529c495e93b71656.svg",
+    "static/media/feminismo.png": "/redv-pers/static/media/feminismo.921035f47d1cde4ab83d.png",
+    "static/media/undraw_super_thank_you_orange.svg": "/redv-pers/static/media/undraw_super_thank_you_orange.8e1495364264317aeef5d9807c3c34a9.svg",
+    "static/media/tech_power.png": "/redv-pers/static/media/tech_power.2f4cf6c685b4d24d4833.png",
+    "static/media/logo-volcanicas.png": "/redv-pers/static/media/logo-volcanicas.d1aafa3de66c82010b85.png",
+    "static/media/logo-redvin.svg": "/redv-pers/static/media/logo-redvin.1e2e14cbb6122bb69ae19b6c937ac064.svg",
+    "index.html": "/redv-pers/index.html",
+    "main.1677438f.css.map": "/redv-pers/static/css/main.1677438f.css.map",
+    "main.2cb79198.js.map": "/redv-pers/static/js/main.2cb79198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1677438f.css",
+    "static/js/main.2cb79198.js"
+  ]
+}
