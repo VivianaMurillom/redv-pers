@@ -22,22 +22,22 @@ root.render(
   <BrowserRouter>
     <Routes>
       {/* Nombres temporales a las rutas */}
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/inicio' element={<Inicio/>}></Route>
-      <Route path='/juega-aprende' element={<Juegayaprende/>}></Route>
-      <Route path='/kit-fem' element={<Kitfem/>}></Route>
-      <Route path='/oportunidades' element={<Oportunidades/>}></Route>
-      <Route path='/asociados' element={<Asociados/>}></Route>
-      <Route path='/lineas' element={<Lineas/>}></Route>
+      <Route path='/redv-pers/' element={<Home/>}></Route>
+      <Route path='/redv-pers/inicio' element={<Inicio/>}></Route>
+      <Route path='/redv-pers/juega-aprende' element={<Juegayaprende/>}></Route>
+      <Route path='/redv-pers/kit-fem' element={<Kitfem/>}></Route>
+      <Route path='/redv-pers/oportunidades' element={<Oportunidades/>}></Route>
+      <Route path='/redv-pers/asociados' element={<Asociados/>}></Route>
+      <Route path='/redv-pers/lineas' element={<Lineas/>}></Route>
       <Route path='*' element={<Error404/>}></Route>
-      <Route path='/home' element={<Navigate replace to={'/'}/>}></Route>
+      <Route path='/redv-pers/home' element={<Navigate replace to={'/'}/>}></Route>
       {/* Rutas internas de juega y aprende jóvenes */}
-      <Route path='/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
-      <Route path='/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
-      <Route path='/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
-      <Route path='/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
+      <Route path='/redv-pers/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
       {/* Rutas de ejercicio formulario */}     
-      <Route path='/formulario' element={<Form/>}></Route>
+      <Route path='/redv-pers/formulario' element={<Form/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

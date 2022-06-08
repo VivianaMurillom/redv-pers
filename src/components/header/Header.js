@@ -6,7 +6,7 @@ function Header(){
     return(
         <header>
             <div className="header-logo">
-                <Link to='/home' className='item'><img src={logo} className="logo" alt="logo" /></Link>
+                <Link to='/redv-pers/' className='item'><img src={logo} className="logo" alt="logo" /></Link>
                 <h1>Redvindicadas</h1>
             </div>
         </header>

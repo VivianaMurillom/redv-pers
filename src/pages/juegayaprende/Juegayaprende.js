@@ -7,6 +7,7 @@ function Juegayaprende(){
        <div>
         <Header/>
         <Navbar/>
+        <h1>Juega y aprende</h1>
         <Footer/>
        </div>
     );

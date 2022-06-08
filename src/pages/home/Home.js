@@ -11,7 +11,7 @@ function Home(){
 			    <h1>Redvindicadas</h1>
 		    </section>
 		<p className="pink-title initial-title">¡Nosotras<span className="white-title initial-title"> hacemos </span> el cambio!</p>
-		<button className="initial-button"><Link to='/inicio' className='item'>Ingresar</Link></button>
+		<button className="initial-button"><Link to='/redv-pers/inicio' className='item'>Ingresar</Link></button>
 	</main>
        </div>
     );

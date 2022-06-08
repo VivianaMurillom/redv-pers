@@ -7,6 +7,7 @@ function Kitfem(){
        <div>
         <Header/>
         <Navbar/>
+        <h1>Kit fem</h1>
         <Footer/>
        </div>
     );

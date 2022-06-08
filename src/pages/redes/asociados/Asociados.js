@@ -7,6 +7,7 @@ function Asociados(){
        <div>
         <Header/>
         <Navbar/>
+        <h1>Asociados</h1>
         <Footer/>
        </div>
     );

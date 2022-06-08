@@ -10,16 +10,16 @@ function Navbar(){
             </label>
 
             <ul className="nav-header"> 
-                <li><Link to='/inicio' className='item'>Inicio</Link></li>
-                <li><Link to='/juega-aprende' className='item'>Juega y Aprende</Link></li>
-                <li><Link to='/oportunidades' className='item'>Oportunidades</Link></li>
+                <li><Link to='/redv-pers/inicio' className='item'>Inicio</Link></li>
+                <li><Link to='/redv-pers/juega-aprende' className='item'>Juega y Aprende</Link></li>
+                <li><Link to='/redv-pers/oportunidades' className='item'>Oportunidades</Link></li>
                 <li className="redes">Redes de apoyo
                     <ul className="redes-enlaces">
-                        <li><Link to='/asociados' className='item'>Asociados</Link></li>
-                        <li><Link to='/lineas-emergencia' className='item'>Líneas de emergencia</Link></li>
+                        <li><Link to='/redv-pers/asociados' className='item'>Asociados</Link></li>
+                        <li><Link to='/redv-pers/lineas' className='item'>Líneas de emergencia</Link></li>
                     </ul>
                 </li>
-                <li><Link to='/kit-fem' className='item'>Kit Fem</Link></li>
+                <li><Link to='/redv-pers/kit-fem' className='item'>Kit Fem</Link></li>
             </ul>
         </nav>
     );

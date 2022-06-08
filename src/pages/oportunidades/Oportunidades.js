@@ -7,6 +7,7 @@ function Oportunidades(){
        <div>
         <Header/>
         <Navbar/>
+        <h1>Oportunidades</h1>
         <Footer/>
        </div>
     );

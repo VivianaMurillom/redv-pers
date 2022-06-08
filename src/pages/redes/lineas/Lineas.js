@@ -7,6 +7,7 @@ function Lineas(){
        <div>
         <Header/>
         <Navbar/>
+        <h1>Líneas</h1>
         <Footer/>
        </div>
     );
