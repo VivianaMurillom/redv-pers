@@ -1,0 +1,71 @@
+.gradient{
+    width: 200px;
+    height: 225px;
+    padding:0.1px;
+    background: -webkit-linear-gradient(#FF7A00 0%, #F67209 0.01%, #A12161 81.35%);
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.gradient-card {
+    height: 215px;
+    margin:5px;
+    background-color:var(--fondo);
+    border-radius: 10px;
+    padding:15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gradient-card h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.gradient-card p{
+    font-weight: 400;
+    margin: 1rem;
+    text-align: center;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+
+    .gradient{
+        margin: .5rem 1rem;
+    }
+
+    .gradient-card h3{
+        font-size: 20px;
+    }
+
+    .gradient-card p{
+        font-size: 15px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+
+    .gradient{
+        min-width: 250px;
+        min-height: 300px;
+    }
+
+    .gradient-card{
+        height: 95%;
+    }
+
+    .gradient-card h3{
+        font-size: 35px;
+    }
+
+    .gradient-card p{
+        font-size: 30px;
+    }
+}

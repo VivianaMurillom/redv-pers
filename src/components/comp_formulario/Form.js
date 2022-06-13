@@ -1,5 +1,10 @@
 import "./Form.css"
+import { useState } from "react";
+
 function Formulario(){
+
+    const [info,setInfo]=useState({id:"",representante:"",correo:"",telefono:"",mensaje:""});
+
     return(
         <main className="body-form">
             <h1>Llena este formulario y te contactamos</h1>
@@ -7,28 +12,33 @@ function Formulario(){
             <label>Nombre</label>
             <input 
             name="nombre"
-            placeholder="colectivo, fundación o colegio"
-            ></input>
+            placeholder="Colectivo, fundación o colegio"
+            type="text"
+            value={info.nombre}/>
             <label>Representante</label>
             <input 
             name="representante"
             placeholder="Escribe tu nombre"
-            ></input>
+            type="text"
+            value={info.representante}/>
             <label>Correo</label>
             <input 
             name="correo"
             placeholder="Correo electrónico"
-            ></input>
+            type="email"
+            value={info.correo}/>
             <label>Número de télefono</label>
             <input 
             name="telefono"
             placeholder="Escribe un número de contacto"
-            ></input>
+            type="number"
+            value={info.telefono}/>
             <label>Mensaje</label>
             <input 
             name="mensaje"
             placeholder="Déjanos tu mensaje"
-            ></input>
+            type="textarea"
+            value={info.mensaje}/>
 			<label className="check">
 				Recuerda que al enviar el formulario aceptas los Terminos y Condiciones
 			</label>

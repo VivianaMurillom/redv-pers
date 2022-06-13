@@ -4,8 +4,13 @@ import Navbar from '../../../../components/navbar/Navbar';
 import Footer from '../../../../components/footer/Footer';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
+import {getAllMenstruacion} from '../../../../RecursosJovenes';
+import Card13 from '../../../../components/comp_formulario/cards13/Card13';
 
 function Jovenes1(){
+
+    const allMenstruacion=getAllMenstruacion();
+
     return(
         <section>
             <Header/>
@@ -70,36 +75,17 @@ function Jovenes1(){
             <div className="section-menstruation">
             <h2>Menstruación</h2>
                 <div class="content-menstruation">
-                <div class="gradient-box-other">
-                    <div class="gradient-menstruation">
-                        <h3>Fases de la menstruación</h3>
-                        <p>Página web</p>
-                        <div class="go">
-                            <a href="https://helloclue.com/es/articulos/ciclo-a-z/el-ciclo-menstrual-mas-que-solo-tu-periodo" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
+                    {
+                        allMenstruacion.map(itemsM=>(
+                            <Card13
+                            id={itemsM.id}
+                            titulo={itemsM.titulo}
+                            presentacion={itemsM.presentacion}
+                            enlace={itemsM.enlace}
+                            />
+                        ))
+                    }
                 </div>
-
-                <div class="gradient-box-other">
-                    <div class="gradient-menstruation">
-                        <h3>¿Sabes qué pasa durante la menstruación?</h3>
-                        <p>Video</p>
-                        <div class="go">
-                            <a href="https://youtu.be/c1ZFUAMuypI" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gradient-box-other">
-                    <div class="gradient-menstruation">
-                        <h3>El ciclo menstrual</h3>
-                        <p>Video</p>
-                        <div class="go">
-                            <a href="https://www.youtube.com/watch?v=fYXMk6qvRvU" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="menstruation-foot">&nbsp;</div>
             </div>
