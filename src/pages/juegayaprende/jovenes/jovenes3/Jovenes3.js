@@ -4,8 +4,13 @@ import Footer from '../../../../components/footer/Footer';
 import './Jovenes3.css';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
+import {getAllNoGame} from '../../../../RecursosJovenes';
+import Card13 from '../../../../components/cards13/Card13';
 
 function Kitfem(){
+
+const allNoGame=getAllNoGame();
+
     return(
        <div>
         <Header/>
@@ -62,35 +67,18 @@ function Kitfem(){
             <p>"Esto es un juego, tu vida NO" es una campaña conjunta de Casa E Social y UNFPA Colombia, para informar a las/los adolescentes sobre sus derechos sexuales y reproductivos a través de situaciones de toma de decisión, usando el sentido del humor como recurso pedagógico. </p>
 
             <div className="boxes-no-game">
-                <div className="gradient-box">
-                    <div className="box-no-game">
-                        <h3>Capitulo 1</h3>
-                        <p>Video</p>
-                        <div className="go">
-                            <a href="https://youtu.be/NMPm8jAko24" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
-                </div>
 
-                <div className="gradient-box">
-                    <div className="box-no-game">
-                        <h3>Capitulo 2</h3>
-                        <p>Video</p>
-                        <div className="go">
-                            <a href="https://youtu.be/MYZXL7oCuxQ" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
-                </div>
+            {
+                allNoGame.map(itemsNG=>(
+                    <Card13
+                    id={itemsNG.id}
+                    titulo={itemsNG.titulo}
+                    presentacion={itemsNG.presentacion}
+                    enlace={itemsNG.enlace}
+                    />
+                ))
+            }
 
-                <div className="gradient-box">
-                    <div className="box-no-game">
-                        <h3>Capitulo 3</h3>
-                        <p>Video</p>
-                        <div className="go">
-                            <a href="https://youtu.be/6vTsdLz871s" target="_blank" rel='noreferrer'><i class="fa-solid fa-circle-chevron-right fa-3x naranja"></i></a>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className="no-game-foot">&nbsp;</div>

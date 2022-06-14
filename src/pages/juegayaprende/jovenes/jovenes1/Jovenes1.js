@@ -5,7 +5,7 @@ import Footer from '../../../../components/footer/Footer';
 import Mmenujovenes from '../../../../components/main-menu-jovenes/Mmenujovenes';
 import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
 import {getAllMenstruacion} from '../../../../RecursosJovenes';
-import Card13 from '../../../../components/comp_formulario/cards13/Card13';
+import Card13 from '../../../../components/cards13/Card13';
 
 function Jovenes1(){
 

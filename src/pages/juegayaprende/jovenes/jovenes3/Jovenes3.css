@@ -178,6 +178,12 @@
     color: #A12161;
 }
 
+.boxes-no-game{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .barnav-recursosyjuegos{
     display: flex;
     align-items: center;
