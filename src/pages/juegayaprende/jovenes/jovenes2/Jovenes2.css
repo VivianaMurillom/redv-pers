@@ -66,14 +66,13 @@
     color: var(--fondo);
 }
 
-.boxes-content-education, .boxes-content-aditional{
+.boxes-content-education{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .box-initial-desing, .box-second-desing{
-    /* filter: blur(6px); */
     max-height: 300px;
     max-width: 300px;
 }
@@ -137,12 +136,7 @@
 
     .boxes-content-education{
         flex-direction: row;
-        justify-content: center;
-        margin: 1rem;
-    }
-
-    .boxes-content-aditional{
-        flex-direction: row-reverse;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 1rem;
     }

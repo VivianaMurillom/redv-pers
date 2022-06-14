@@ -1,9 +1,9 @@
-
+import './Card2.css';
 
 function Card2(item){
     return(
-        <div className="gradient">
-            <div id="card-second" className="gradient-card">
+        <div className="gradient-cardEdu">
+            <div id="card-second" className="card-edu">
                 <h3>{item.titulo}</h3>
                 <p>{item.presentacion}</p>
                 <div className="go">
