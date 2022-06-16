@@ -2,10 +2,9 @@ import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import './Inicio.css';
-import volcanicas from './img/logo-volcanicas.png';
-import manifiesta from './img/logo-manifiesta.png';
-import igualadas from './img/logo-igualadas.png';
-import calendario from './img/imgcalendario.svg';
+import calendario from './img/imgcalendario.png';
+import {getAllCards} from '../../RecursosHome';
+import CardsInicio from '../../components/cardsinicio/CardsInicio';
 
 function Inicio(){
 
@@ -67,6 +66,8 @@ function Inicio(){
         break;
     }
 
+    const allCards=getAllCards();
+
     return(
        <div>
            <Header/>
@@ -109,27 +110,17 @@ function Inicio(){
 
             <section className="info-home">
                 <article className="cards-container">
-                    <div className="home-cards card-border">
-                        <h5>Volcánicas</h5>
-                        <img className="logo-home-cards" src={volcanicas} alt=''/>
-                        <div className="go-home">
-                            <a href="https://volcanicas.com/" target="_blank"rel='noreferrer'><i className="fa-solid fa-circle-chevron-right fa-2x"></i></a>
-                        </div>
-                    </div>
-                    <div className="home-cards card-border">
-                        <h5>Manifiesta</h5>
-                        <img className="logo-home-cards" src={manifiesta} alt=''/>
-                        <div className="go-home">
-                            <a href="https://manifiesta.org/" target="_blank" rel='noreferrer'><i className="fa-solid fa-circle-chevron-right fa-2x"></i></a>
-                        </div>
-                    </div>
-                    <div className="home-cards card-border">
-                        <h5>Las Igualadas</h5>
-                        <img className="logo-home-cards" src={igualadas} alt=''/>
-                        <div className="go-home">
-                            <a href="https://www.youtube.com/c/LasIgualadas" target="_blank" rel='noreferrer'><i className="fa-solid fa-circle-chevron-right fa-2x"></i></a>
-                        </div>
-                    </div>
+
+                    {
+                        allCards.map(itemsCards=>(
+                            <CardsInicio
+                            id={itemsCards.id}
+                            titulo={itemsCards.titulo}
+                            imagen={itemsCards.imagen}
+                            enlace={itemsCards.enlace}
+                            />
+                        ))
+                    }
                 </article>
             </section>
         </div>
