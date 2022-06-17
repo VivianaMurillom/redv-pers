@@ -60,6 +60,11 @@
     text-decoration: none;
     color: white;
   }
+
+  .initial-button a:hover{
+    color: var(--morado-osc);
+  }
+
   .pink-title {
     color: #f2acb9;
   }
