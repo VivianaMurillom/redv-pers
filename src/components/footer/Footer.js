@@ -15,13 +15,13 @@ function Footer() {
             <h3>Diseño por devs de Kuepa</h3>
             <ul className="foot-developers-list">
                 <div className="list-section">
-                    <li>Daniela Tarazona @</li>
-                    <li>Danna Sanchez @</li>
+                    <li><a href='https://github.com/dtaal' target="_blank" rel='noreferrer'>Daniela Tarazona @</a></li>
+                    <li><a href='https://github.com/DannaSanchez' target="_blank" rel='noreferrer'>Danna Sanchez @</a></li>
                     {/* <li>Laura Castro @</li> */}
                 </div>
                 <div className="list-section">
-                    <li>Lizeth Rico @</li>
-                    <li>Viviana Murillo @</li>
+                    <li><a href='https://github.com/ricoththth' target="_blank" rel='noreferrer'>Lizeth Rico @</a></li>
+                    <li><a href='https://github.com/VivianaMurillom' target="_blank" rel='noreferrer'>Viviana Murillo @</a></li>
                 </div>
             </ul>
         </div>

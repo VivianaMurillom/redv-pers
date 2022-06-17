@@ -40,6 +40,10 @@
     text-decoration: none;
 }
 
+.texto-mes a:hover{
+    color: var(--morado-oscuro);
+}
+
 .imagen-mes{
     margin: .5rem auto;
     max-height: 100px;

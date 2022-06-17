@@ -79,7 +79,8 @@ li{
 	padding: .5rem;
 }
 
-.nav-header li:hover{
+.nav-header li:hover, .nav-header a:hover{
+    color: #FFF8F8;
     text-decoration: underline;
 }
 

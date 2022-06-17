@@ -52,6 +52,10 @@
     margin: .5rem;
 }
 
+.games-buttons a:hover{
+    color: var(--rosa);
+}
+
 .juego-articulo{
     background-color: #A12161;
     border-radius: 10px;

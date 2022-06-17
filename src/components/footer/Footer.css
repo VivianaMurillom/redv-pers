@@ -46,6 +46,15 @@ footer {
     font-size: 15px;
 }
 
+.list-section a{
+    color: var(--fondo);
+    text-decoration: none;
+}
+
+.list-section a:hover{
+    color: var(--rosa-claro)
+}
+
 .foot-tech-power img {
     max-width: 200px;
     padding: .5rem;

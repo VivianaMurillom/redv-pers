@@ -1,0 +1,22 @@
+.contenedor-error{
+    display: flex;
+}
+
+.imagen-error{
+    margin: 1rem auto;
+    max-width: 320px;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    .imagen-error{
+        max-width: 740px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+    .imagen-error{
+        max-width: 1000px;
+    }
+}

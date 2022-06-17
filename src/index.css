@@ -28,6 +28,10 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+a:hover{
+    color:#F2ACB9;
+}
+
 /*Resolución macro*/
 @media screen and (min-width:1200px) {
     

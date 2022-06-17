@@ -190,6 +190,12 @@
       padding: 1rem;
     }
 
+    .calendario-imagen img{
+      margin-top: 1rem;
+      max-width: 300px;
+      min-width: 200px;
+    }
+
     .vector h2 {
         font-size: 40px;
       }
@@ -247,24 +253,8 @@
       max-width: 500px;
     }
 
-    .hoy{
-      font-size: 1.8rem;
-    }
-
-    .cuerpo-hoy h3{
-      font-size: 1.5rem;
-      margin-bottom: .5rem;
-    }
-
-    .cuerpo-hoy p{
-      margin: 0;
-      margin-bottom: 1.5rem;
-      padding: .5rem;
-    }
-
-    .cuerpo-hoy a{
-      font-size: 1.3rem;
-      
+    .nuevo-contenido{
+      flex-direction: row;
     }
 
     .calendario-imagen img{
