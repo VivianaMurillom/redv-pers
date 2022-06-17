@@ -5,66 +5,9 @@ import './Inicio.css';
 import calendario from './img/imgcalendario.png';
 import {getAllCards} from '../../RecursosHome';
 import CardsInicio from '../../components/cardsinicio/CardsInicio';
+import Calendario from '../../components/calendario/Calendario';
 
 function Inicio(){
-
-    let fecha = new Date();
-    let hoy=fecha.getDate();
-    let mesActual = fecha.getMonth() + 1; 
-    let mesActualText='';
-
-    switch (mesActual) {
-        case 1:
-            mesActualText='Enero'
-        break;
-
-        case 2:
-            mesActualText='Febrero'
-        break;
-
-        case 3:
-            mesActualText='Marzo'
-        break;
-
-        case 4:
-            mesActualText='Abril'
-        break;
-
-        case 5:
-            mesActualText='Mayo'
-        break;
-
-        case 6:
-            mesActualText='Junio'
-        break;
-
-        case 7:
-            mesActualText='Julio'
-        break;
-
-        case 8:
-            mesActualText='Agosto'
-        break;
-
-        case 9:
-            mesActualText='Septiembre'
-        break;
-
-        case 10:
-            mesActualText='Octubre'
-        break;
-
-        case 11:
-            mesActualText='Noviembre'
-        break;
-
-        case 12:
-            mesActualText='Diciembre'
-        break;
-    
-        default:
-        break;
-    }
 
     const allCards=getAllCards();
 
@@ -85,20 +28,16 @@ function Inicio(){
                 </div>
             </section>
 
-            <section className='dia-especial'>
-                <h1>Día especial</h1>
-                <p>Para mantenerse informado sobre lo acontecido en un día como hoy (una celebración, personaje importante o actividades a realizar...), te invitamos a leer:</p>
+            <section className='calendario-section'>
+                <h1>Calendario</h1>
+                <p>Para brindarte información de acontecimientos importantes como celebraciones, personajes importantes, o actividades a
+			realizar...</p>
                 <div className='nuevo-calendario'>
-                    <div className='hoy-contenido'>
-                        <div className='especial-hoy'>
-                        <div className='hoy'>{hoy} de {mesActualText}</div>
-                        <div className='cuerpo-hoy'>
-                            <h3>Hoy en la historia de la mujer</h3>
-                            <p>Conozca cada día a mujeres conocidas y menos conocidas que cambian las cosas, que rompen el techo de cristal y que se rebelan.</p>
-                            <a href='https://todayinwomenshistory.org/' target='_blank' rel='noreferrer'>Nuestra historia es importante.</a>
+                    <div className='nuevo-contenido'>
+                        <Calendario/>
+                        <div className='calendario-imagen'>
+                            <img src={calendario} alt='Imagen de calendario mujeres'/>
                         </div>
-                        </div>
-                        <img src={calendario} alt='Imagen de calendario mujeres'/>
                     </div>
                 </div>
             </section>

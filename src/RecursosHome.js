@@ -3,7 +3,7 @@ let calendario=[
     {
         "id":1,
         "mes":"Enero",
-        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1482294084110-UP2E8W2BA3G2VXDAPFE8/RossBetsy.jpg?format=500w",
+        "imagen":"https://s3.amazonaws.com/libapps/accounts/76094/images/jeannechall1991.jpg",
         "nombre":"Jeanne Chall",
         "descripcion":"La Federación Americana de Profesores compartió un homenaje a la labor de Jeanne Chall en pro de la educación.",
         "invitacion":"https://todayinwomenshistory.org/january"
@@ -11,7 +11,7 @@ let calendario=[
     {
         "id":2,
         "mes":"Febrero",
-        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1517535407879-UWIRHM42GI7XF7P7RMVV/The_Una_%28newspaper%29.jpg?format=1000w",
+        "imagen":"https://image.pbs.org/bento3-prod/wned/WNED%20Productions/Discovering%20New%20York%20Suffrage%20Stories/Archive%20Photos/Paulina_Wright_Davis/1191c6c8ad_PD001_M_FIXED_original.jpg?resize=1280x,no-scale-up",
         "nombre":"Paulina Kellogg Wright Davis",
         "descripcion":"En 1853 se estrenó The Una. Editado por Paulina Kellogg Wright Davis, es reconocido como el primer periódico feminista del movimiento por los derechos de la mujer.",
         "invitacion":"https://todayinwomenshistory.org/february"
@@ -19,7 +19,7 @@ let calendario=[
     {
         "id":3,
         "mes":"Marzo",
-        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1522294522799-6LCCF2NVJ1MMNQESU0BS/womens.png?format=750w",
+        "imagen":"https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2020/03/05/15834089162420.jpg",
         "nombre":"Mes de la Historia de la Mujer",
         "descripcion":"El primero de marzo en 1987, el Congreso aprobó una resolución que designa marzo como el Mes de la Historia de la Mujer.",
         "invitacion":"https://todayinwomenshistory.org/march"
@@ -43,7 +43,7 @@ let calendario=[
     {
         "id":6,
         "mes":"Junio",
-        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1528247894242-0VR6N1R57UAR6103TLDV/download.jpg?format=500w",
+        "imagen":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-143481862-1527813488.jpg?resize=980:*",
         "nombre":"Connie Chung",
         "descripcion":"El primero de junio en 1993, Connie Chung se convirtió en la segunda mujer en copresentar las noticias de la noche, 17 años después de que Barbara Walters fuera la primera en 1976. También fue la primera asiática en copresentar las noticias nacionales de una cadena importante.",
         "invitacion":"https://todayinwomenshistory.org/june"
@@ -61,7 +61,7 @@ let calendario=[
         "mes":"Agosto",
         "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1578092947560-3YVFBYSBL8QTAL2SYSLH/07.jpg?format=500w",
         "nombre":"Beatrice Medicine",
-        "descripcion":"Beatrice Medicine, antropóloga de los Sioux de Standing Rock, nació el primero de agosto en 1923. Se centró en el papel de las mujeres lakotas en los cambios que afrontaban sus culturas en ámbitos como la educación bilingüe, el consumo de alcohol y drogas, los abusos, la socialización de los niños y las necesidades de identidad, autora de Learning to Be an Anthropologist y Remaining Native.",
+        "descripcion":"Beatrice Medicine, antropóloga de los Sioux de Standing Rock, nació el primero de agosto en 1923. Se centró en el papel de las mujeres lakotas en los cambios que afrontaban sus culturas en ámbitos como la educación bilingüe, el consumo de alcohol y drogas, los abusos, la socialización de los niños y las necesidades de identidad.",
         "invitacion":"https://todayinwomenshistory.org/august"
     },
     {
@@ -75,7 +75,7 @@ let calendario=[
     {
         "id":10,
         "mes":"Octubre",
-        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1599441303746-5ABRNW49HG6KX0610E70/Ann_Richards%2C_Governor_of_Texas.jpg?format=500w",
+        "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1599525140822-ZRQKSYLAQEDRLQB6NFNI/Margaret_Hillis.jpg?format=500w",
         "nombre":"Margaret Hillis",
         "descripcion":"Margaret Hillis nació el primero de octubre en 1921. Fue la fundadora y primera directora del Coro Sinfónico de Chicago.",
         "invitacion":"https://todayinwomenshistory.org/october"

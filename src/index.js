@@ -15,6 +15,7 @@ import Jovenes2 from './pages/juegayaprende/jovenes/jovenes2/Jovenes2';
 import Jovenes3 from './pages/juegayaprende/jovenes/jovenes3/Jovenes3';
 import JovenesJuegos from './pages/juegayaprende/jovenes/jovenes_juegos/JovenesJuegos';
 import Form from './pages/formulario/form';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

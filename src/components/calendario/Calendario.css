@@ -1,0 +1,91 @@
+.calendario-mes{
+    max-width: 360px;
+}
+
+.calendario-mes h2{
+    text-align: center;
+}
+
+.todo-contenido{
+    min-height: 350px;
+}
+
+.imagen-fondo{
+    min-height: 300px;
+}
+
+.calendario-background{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.calendario-background h3{
+    color: var(--morado-oscuro);
+}
+
+.contenido-calendario{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-mes{
+    display: flex;
+    text-align: center;
+}
+
+.texto-mes a{
+    color: var(--rosa-oscuro);
+    text-decoration: none;
+}
+
+.imagen-mes{
+    margin: .5rem auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.descripcion{
+    display: none;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    .calendario-mes{
+        max-width: 620px;
+    }
+
+    .todo-contenido{
+        min-height: 410px;
+    }
+    
+    .imagen-fondo{
+        min-height: 360px;
+    }
+
+    .calendario-background{
+        justify-content: center;
+        padding: .5rem;
+    }
+
+    .contenido-calendario{
+        flex-direction: row;
+    }
+
+    .imagen-mes{
+        margin: 1rem 0;
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    .texto-mes{
+        flex-direction: column;
+    }
+
+    .texto-mes p{
+        color: white;
+        display: initial;
+        font-size: 14px;
+    }
+}

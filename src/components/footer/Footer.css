@@ -31,6 +31,10 @@ footer {
     margin: .2rem 0;
 }
 
+.foot-developers ul{
+    padding-left: 0;
+}
+
 .foot-developers-list{
     display: flex;
     flex-direction: column;
