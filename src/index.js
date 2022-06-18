@@ -16,6 +16,7 @@ import Jovenes3 from './pages/juegayaprende/jovenes/jovenes3/Jovenes3';
 import JovenesJuegos from './pages/juegayaprende/jovenes/jovenes_juegos/JovenesJuegos';
 import Form from './pages/formulario/form';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FormAsociado from './pages/form-asocia/FormAsociado';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +40,8 @@ root.render(
       <Route path='/redv-pers/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
       {/* Rutas de ejercicio formulario */}     
       <Route path='/redv-pers/formulario' element={<Form/>}></Route>
+      {/* Rutas de ejercicio nuevo formulario */}  
+      <Route path='/redv-pers/formulario-asociados' element={<FormAsociado/>}></Route>   
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

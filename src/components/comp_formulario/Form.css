@@ -23,6 +23,18 @@
     background-color: rgba(255, 255, 255, 0.409);
     padding: 15px;
 }
+
+.mensaje-error{
+    color: #C75C7E;
+    display: none;
+    font-size: .8rem;
+}
+
+.active{
+    color: var(--fondo);
+    display: initial;
+}
+
 .check{
     font-size: 12px;
     padding: 0;

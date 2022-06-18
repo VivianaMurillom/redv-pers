@@ -1,0 +1,28 @@
+.body-form{
+    background-image: url(./form.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 650px;
+    padding: 20px;
+    display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+    border: 3px solid #C75C7E;
+    border-radius: 15px;
+    margin:30px auto;
+}
+
+@media (min-width: 700px){
+    .body-form{
+    grid-template-columns: 1fr 1fr;
+    } 
+}
+
+@media (min-width: 1024px){
+    .body-form{
+        max-width: 800px;
+    }
+    .body-form h1{
+        margin-top: 38%;
+    }
+}
